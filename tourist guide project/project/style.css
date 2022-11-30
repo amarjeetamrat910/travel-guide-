@@ -1,0 +1,66 @@
+.container{
+    background-color: #f2f2f2;
+    padding: 8px 10px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text],input[type=email]{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 50%;
+    display: block;
+    margin: 10px 8px;
+    padding: 10px 12px;
+}
+input[type=password]{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:40%;
+    display: block;
+    padding: 10px 13px;
+    margin: 10px 8px;
+}
+input[type=number]{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:35%;
+    display: block;
+    padding: 10px 13px;
+    margin: 10px 8px; 
+}
+b{
+    font-size: 20px;
+}
+div h1{
+    font-size: 40px;
+    color: chocolate;
+    text-align: center;
+}
+div p{
+    font-size: 24px;
+    color: darkorchid;
+    text-align: center;
+}
+input[type=submit]{
+    text-align: center;
+    width: 81%;
+    color: #ffffff;
+    background-color: green;
+    padding: 10px 20px;
+    margin: 10px 6px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover{
+    background-color: darkgreen;
+}
